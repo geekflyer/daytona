@@ -1,0 +1,11 @@
+version = 1
+
+test_patterns = ["*/pkg/**/*_test.go"]
+
+[[analyzers]]
+name = "go"
+enabled = true
+
+  [analyzers.meta]
+  import_path = "github.com/geekflyer/daytona"
+  dependencies_vendored = true
