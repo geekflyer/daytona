@@ -1,6 +1,6 @@
 version = 1
 
-test_patterns = ["*/pkg/**/*_test.go"]
+test_patterns = ["pkg/**/*_test.go"]
 
 [[analyzers]]
 name = "go"
