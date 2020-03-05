@@ -26,12 +26,13 @@ import (
 	"strconv"
 	"syscall"
 
+	"github.com/hashicorp/vault/api"
+	homedir "github.com/mitchellh/go-homedir"
+
 	"github.com/cruise-automation/daytona/pkg/auth"
 	cfg "github.com/cruise-automation/daytona/pkg/config"
 	"github.com/cruise-automation/daytona/pkg/pki"
 	"github.com/cruise-automation/daytona/pkg/secrets"
-	"github.com/hashicorp/vault/api"
-	homedir "github.com/mitchellh/go-homedir"
 )
 
 var config cfg.Config
